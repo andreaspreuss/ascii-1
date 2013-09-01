@@ -16,7 +16,13 @@ Few things to note
 - Don't sweat about opening an Issue. Its no big deal. Features requests/bugs/anything is welcome
 - Please dont start coding on a feature before opening an Issue and discussing it
 
-####FAQ
+##Contributors
+People who have [contributed](https://github.com/cufe/ascii/graphs/contributors) to this project, large or small. 
+- [Ahmed Azaan](https://github.com/aeonaxan/)
+- [Nishad Menezes](https://github.com/nishadmenezes)
+- [Melvin Mathew](https://https://github.com/melvin15may)
+
+##FAQ
 - _Wow man. talk about overkill._   
 yes. noted. moving on :)_
 
