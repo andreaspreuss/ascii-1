@@ -252,14 +252,40 @@ a {
 /* Footer2
  * -------------------------------------- */
 .footer2 {
-    height: 40px;
+    overflow: hidden;
+    height: 50px;
     background: #040404;
     border-top: 1px #222;
     box-shadow: inset 0px 0px 5px -1px black;
-    position: relative;
 }
 
 .footer2 p {
-    line-height: 40px;
-    margin-left: 70px;
+    line-height: 50px;
+}
+
+.footer2 a {
+    text-indent: -9999px;
+    display: inline-block;
+    margin-top: 9px;
+    width: 32px;
+    height: 32px;
+}
+
+.footer2 a:hover {
+    background-position: 0px -32px;
+}
+
+.soc-twitter {
+    background: no-repeat url('../images/social-ico/twitter.png');
+}
+
+.soc-facebook {
+    background: no-repeat url('../images/social-ico/facebook.png');
+}
+
+.soc-linkedin {
+    background: no-repeat url('../images/social-ico/linkedin.png');
+}
+.soc-youtube {
+    background: no-repeat url('../images/social-ico/youtube.png');
 }
