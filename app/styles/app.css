@@ -87,10 +87,11 @@ a {
 }
 
 .news-row {
+    position: relative;
     margin-top: 15px;
     border: 1px solid #ddd;
     background: white;
-    padding: 15px 10px;
+    padding: 10px 10px;
 }
 
 .news-row:first-child {
@@ -102,31 +103,36 @@ a {
 }
 
 .news-inner {
+    margin-right: 12px;
     overflow: hidden;
-    padding: 5px;
 }
 
 .news-section .thumbnail {
     margin: 0px auto;
-    min-height: 200px;
+    min-height: 160px;
 }
 
-.news-annoucements {
+.news-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.tag-announcement {
     background: #BF3730;
-    padding-right: 41px;
 }
 
-.news-events {
+.tag-event {
     background: #1E6D74;
-    padding-right: 41px;
 }
 
-.news-blogs{
+.tag-blog {
     background: #82B22C;
-    padding-right: 41px;
 }
 
-.news-section h3 {
+.news-section h4 {
 }
 
 .news-section p {
