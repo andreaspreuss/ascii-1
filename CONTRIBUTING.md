@@ -51,7 +51,10 @@ git push origin my-feature -f
 ```
 
 ####Code guidelines
-Make sure all your code passes a validation check. (W3C Validator, JSHint)
+Make sure all your code passes a validation check.  
+HTML -> [W3C Validator](http://validator.w3.org/)  
+CSS  -> [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)  
+JS   -> [JSHint](http://www.jshint.com/)  
 
 *HTML:*
 Use **2 spaces** for indentation. 
