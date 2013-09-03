@@ -94,7 +94,7 @@ a {
 }
 
 .news-row:first-child {
-    margin-top: none;
+    margin-top: 0;
 }
 
 .news-row:last-child {
@@ -191,7 +191,7 @@ a {
 }
 
 .event-item {
-    padding: 20px, 5px;
+    padding: 20px 5px;
     display: table-cell;
 }
 
@@ -240,13 +240,13 @@ a {
     background-image: linear-gradient(to bottom, #333, #323232);
     border: 1px solid #222;
     border-radius: 0;
-    text-shadow: 0;
+    text-shadow: none;
     color: #eee;
 }
 
 #mail-list button:hover {
     background-color: #222222;
-    text-shadow: 0;
+    text-shadow: none;
     border: 1px solid #000;
 }
 
