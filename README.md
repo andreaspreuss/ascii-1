@@ -22,6 +22,7 @@ People who have [contributed](https://github.com/cufe/ascii/graphs/contributors)
 - [Nishad Menezes](https://github.com/nishadmenezes)
 - [Melvin Mathew](https://https://github.com/melvin15may)
 
+If you plan on contributing to the project please read [CONTRIBUTING.md](https://github.com/cufe/ascii/blob/master/CONTRIBUTING.md).
 ##FAQ
 - _Wow man. talk about overkill._   
 yes. noted. moving on :)_
