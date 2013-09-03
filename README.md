@@ -20,7 +20,7 @@ Few things to note
 People who have [contributed](https://github.com/cufe/ascii/graphs/contributors) to this project, large or small. 
 - [Ahmed Azaan](https://github.com/aeonaxan/)
 - [Nishad Menezes](https://github.com/nishadmenezes)
-- [Melvin Mathew](https://https://github.com/melvin15may)
+- [Melvin Mathew](https://github.com/melvin15may)
 
 If you plan on contributing to the project please read [CONTRIBUTING.md](https://github.com/cufe/ascii/blob/master/CONTRIBUTING.md).
 ##FAQ
