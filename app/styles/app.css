@@ -35,7 +35,6 @@ a {
  * -------------------------------------- */
 .carousel {
     padding-top: 50px;
-
 }
 
 .carousel .container {
@@ -53,15 +52,15 @@ a {
     z-index: 10;
 }
 
-.carousel .item {
-    height: 500px;
-}
-
-.carousel img {
+.carousel-coverimage {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
+    height: 500px;
+}
+
+.carousel .item {
     height: 500px;
 }
 
@@ -163,11 +162,15 @@ a {
 }
 
 
-/* Footer
+/* Events
  * -------------------------------------- */
 .events-section {
     background: #163554;
-    padding: 50px 0px;
+    padding: 50px 0px 30px 0px;
+}
+
+.events-section .item {
+    height: 100%;
 }
 
 .events-section h2 {

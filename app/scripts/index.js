@@ -2,6 +2,10 @@
     'use strict';
 
     $(function() {
-        $('#myCarousel').carousel();
+        $('#slideCarousel').carousel();
+    });
+
+    $(function() {
+        $('#eventsCarousel').carousel();
     });
 })(window.jQuery);
