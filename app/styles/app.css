@@ -302,8 +302,7 @@ a {
 
 /* Blog
  * -------------------------------------- */
-/
-.blog_wrap {
+.blog-wrap {
     padding-bottom: 50px;
 }
 
@@ -312,11 +311,11 @@ a {
     margin-left: 30px;
 }
 
-.blog_wrap .row {
+.blog-wrap .row {
     margin-top: 20px;
 }
 
-.blog_wrap section li {
+.blog-wrap section li {
     font-style: bold;
     font-size: 18px;
     display: block;
@@ -327,45 +326,43 @@ a {
     border-top-color: #dfdfdf;
 }
 
-.blog_wrap section p {
+.blog-wrap section p {
     margin-bottom: 0;
 }
 
-.blog_wrap section li:first-child {
+.blog-wrap section li:first-child {
     border-top:0;
 }
 
-.blog_wrap section li:last-child {
+.blog-wrap section li:last-child {
     border-bottom: 1px solid #dfdfdf;
 }
 
-.blog_wrap span {
+.blog-wrap span {
     color: grey;
     font-size: 15px;
     font-style: italic;
 }
 
-.blog_wrap span strong {
+.blog-wrap span strong {
     color:black;
 }
 
-.blog_wrap section li a {
+.blog-wrap section li a {
     padding-left: 5px;
     text-decoration: none;
 }
 
-.blog_wrap section li:hover {
+.blog-wrap section li:hover {
     background-color: #dfdfdf;    
 }
 
-.blog_wrap time {
+.blog-wrap time {
     width: 82px;
     height: 32px;
+    color: grey;
 }
-.span3 {
-    height: 450px;
-    
-}
+
 /* Search Box
  * -------------------------------------- */
 .search {
@@ -373,45 +370,42 @@ a {
     padding: 3px;
     box-shadow: 0px 0px 0px 1px #dfdfdf;
     margin-bottom: 10px;
-    
-    
 }
 
 .search h4{
     margin-left: 22px;
 }
+
 .form-search{
     padding: 4px;
     margin-left: 14px;
 }
 
-
 /* Events Box
  * -------------------------------------- */
-    .feed {
+.feed {
     padding: 3px;  
     box-shadow: 0px 0px 0px 1px #dfdfdf;
 }
 
-    .feed h4 {
+.feed h4 {
     padding-left: 30px;
 
 }
-
-    .feed li {
+    
+.feed li {
     list-style: none;
     font-size: 16px;
     padding: 5px;
 }
 
-    .feed li a {
+.feed li a {
   color: orange;
   font-family: Arial;
 }
 
-    .feed li:hover {
+.feed li:hover {
     background-color: #dfdfdf;
     list-style: none;
     text-decoration: none;
-
 }
