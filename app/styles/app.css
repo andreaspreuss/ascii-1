@@ -299,3 +299,92 @@ a {
 .soc-youtube {
     background: no-repeat url('../images/social-ico/youtube.png');
 }
+
+/* Blog
+ * -------------------------------------- */
+/* Blog
+ * -------------------------------------- */
+.blog_wrap {
+    padding-bottom: 50px;
+}
+
+.blog-header{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.blog_wrap .row {
+    margin-top: 20px;
+}
+
+.blog_wrap section li {
+    font-style: bold;
+    font-size: 18px;
+    display: block;
+    border-width: 1px;
+    padding: 12px;
+    overflow: hidden;
+    border-top-style: solid;
+    border-top-color: #dfdfdf;
+}
+
+.blog_wrap section p {
+    margin-bottom: 0;
+}
+
+.blog_wrap section li:first-child {
+    border-top:0;
+}
+
+.blog_wrap section li:last-child {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.blog_wrap span {
+    color: grey;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.blog_wrap span strong {
+    color:black;
+}
+
+.blog_wrap section li a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.blog_wrap section li:hover {
+    background-color: #dfdfdf;    
+}
+
+.blog_wrap time {
+    width: 82px;
+    height: 32px;
+}
+
+/* Events Box
+ * -------------------------------------- */
+.blog_wrap .span3 {
+    box-shadow: 0px 0px 0px 1px #dfdfdf;
+}
+
+.blog_wrap .span3 h4 {
+    padding-left: 25px;
+
+}
+
+.blog_wrap .span3 li {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.blog_wrap .span3 li a {
+  color: orange;
+}
+
+.blog_wrap .span3 li:hover {
+    background-color: #dfdfdf;
+}
