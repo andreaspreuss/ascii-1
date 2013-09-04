@@ -362,28 +362,56 @@ a {
     width: 82px;
     height: 32px;
 }
+.span3 {
+    height: 450px;
+    
+}
+/* Search Box
+ * -------------------------------------- */
+.search {
+    margin-top: 12px;
+    padding: 3px;
+    box-shadow: 0px 0px 0px 1px #dfdfdf;
+    margin-bottom: 10px;
+    
+    
+}
+
+.search h4{
+    margin-left: 22px;
+}
+.form-search{
+    padding: 4px;
+    margin-left: 14px;
+}
+
 
 /* Events Box
  * -------------------------------------- */
-.blog_wrap .span3 {
+    .feed {
+    padding: 3px;  
     box-shadow: 0px 0px 0px 1px #dfdfdf;
 }
 
-.blog_wrap .span3 h4 {
-    padding-left: 25px;
+    .feed h4 {
+    padding-left: 30px;
 
 }
 
-.blog_wrap .span3 li {
+    .feed li {
     list-style: none;
     font-size: 16px;
     padding: 5px;
 }
 
-.blog_wrap .span3 li a {
+    .feed li a {
   color: orange;
+  font-family: Arial;
 }
 
-.blog_wrap .span3 li:hover {
+    .feed li:hover {
     background-color: #dfdfdf;
+    list-style: none;
+    text-decoration: none;
+
 }
