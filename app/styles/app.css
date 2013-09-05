@@ -140,6 +140,47 @@ a {
 .news-section p {
 }
 
+/* News Filter
+ * -------------------------------------- */
+.news-filter .input-prepend {
+    padding: 5px 5px 0px 5px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.news-filter .input-prepend input {
+    width: 85%;
+}
+
+ul.pills li {
+    padding: 10px 2px;
+}
+
+ul.pills a {
+    padding: 7px 10px;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.pills a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pills .tag-announcement:hover {
+    background: #7C1510;
+}
+
+.pills .tag-event:hover {
+    background: #0A464B;
+}
+
+.pills .tag-blog:hover {
+    background: #4F740E;
+}
+
 
 /* Parllax Split
  * -------------------------------------- */
