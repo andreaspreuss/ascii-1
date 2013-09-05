@@ -316,7 +316,6 @@ a {
 }
 
 .blog-wrap section li {
-    font-style: bold;
     font-size: 18px;
     display: block;
     border-width: 1px;
@@ -384,7 +383,7 @@ a {
 /* Events Box
  * -------------------------------------- */
 .feed {
-    padding: 3px;  
+    padding: 3px 0px 3px 0px;
     box-shadow: 0px 0px 0px 1px #dfdfdf;
 }
 
@@ -392,11 +391,15 @@ a {
     padding-left: 30px;
 
 }
+
+.feed ol {
+    margin-left: 0px;
+}
     
 .feed li {
     list-style: none;
     font-size: 16px;
-    padding: 5px;
+    padding: 5px 0px 5px 30px;
 }
 
 .feed li a {
