@@ -349,6 +349,7 @@ a {
 }
 
 .blog-wrap section li a {
+    color: #1531AE;
     padding-left: 5px;
     text-decoration: none;
 }
@@ -375,10 +376,9 @@ a {
 .search h4{
     margin-left: 22px;
 }
-
-.form-search{
-    padding: 4px;
-    margin-left: 14px;
+.search .input-prepend {
+    
+    margin-left: 22px;
 }
 
 /* Events Box
