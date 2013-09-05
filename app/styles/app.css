@@ -85,12 +85,15 @@ a {
     background: #f8f8f8;
 }
 
-.news-row {
-    position: relative;
-    margin-top: 15px;
+.card {
     border: 1px solid #ddd;
     background: white;
     padding: 10px 10px;
+}
+
+.news-row {
+    position: relative;
+    margin-top: 15px;
 }
 
 .news-row:first-child {
