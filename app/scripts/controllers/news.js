@@ -8,10 +8,10 @@ function NewsCtrl($scope, $http) {
     $http.get('endpoint/news.json').success(function(data) {
         $scope.news = data;
         for (var i = 0; i < data.length; i++) {
-            $scope.categories.push(data[i].category);
             $scope.catFilter[data[i].category] = true;
         }
-        console.log(data);
+
+        $scope.categories = Object.keys($scope.catFilter);
     });
 
     $scope.categoryFilter = function(item) {
