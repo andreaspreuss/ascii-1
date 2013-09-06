@@ -83,6 +83,7 @@ a {
  * -------------------------------------- */
 .news-section {
     background: #f8f8f8;
+    min-height: 600px;
 }
 
 .card {
@@ -186,6 +187,20 @@ ul.pills a {
     background: #4F740E;
 }
 
+.pills .disabled_announcement {
+    background: #7C1510;
+    color: #999;
+}
+
+.pills .disabled_event {
+    background: #0A464B;
+    color: #999;
+}
+
+.pills .disabled_blog {
+    background: #4F740E;
+    color: #999;
+}
 
 /* Parllax Split
  * -------------------------------------- */
