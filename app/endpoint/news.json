@@ -3,21 +3,18 @@
         "title": "Lorem ipsum dolor sit amet",
         "body": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
         "category": "blog",
-        "hasImage": true,
         "image": "images/thumb.gif"
     },
     {
         "title": "Sed ut perspiciatis",
         "body": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
         "category": "announcement",
-        "hasImage": true,
         "image": "images/thumb.gif"
     },
     {
         "title": "At vero eos et accusamus et iusto odio",
         "body": "consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
-        "category": "events",
-        "hasImage": true,
+        "category": "event",
         "image": "images/thumb.gif"
     }
 ]
