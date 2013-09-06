@@ -3,18 +3,34 @@ function NewsCtrl($scope, $http) {
 
     $scope.news = [];
     $scope.categories = [];
-    $scope.catFilter = {};
+    $scope.catSelect = {};
+    $scope.allDisabled = true;
 
     $http.get('endpoint/news.json').success(function(data) {
         $scope.news = data;
         for (var i = 0; i < data.length; i++) {
-            $scope.catFilter[data[i].category] = true;
+            $scope.catSelect[data[i].category] = false;
         }
 
-        $scope.categories = Object.keys($scope.catFilter);
+        $scope.categories = Object.keys($scope.catSelect);
     });
 
+    $scope.toggleCatSelect = function(category) {
+        $scope.catSelect[category] = !$scope.catSelect[category];
+        for (var key in $scope.catSelect) {
+            if ($scope.catSelect.hasOwnProperty(key) && $scope.catSelect[key]) {
+                $scope.allDisabled = false;
+                return;
+            }
+        }
+        $scope.allDisabled = true;
+    };
+
     $scope.categoryFilter = function(item) {
-        return $scope.catFilter[item.category];
+        if ($scope.allDisabled) {
+            return true;
+        }
+
+        return $scope.catSelect[item.category];
     };
 }

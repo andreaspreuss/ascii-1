@@ -112,8 +112,8 @@
               <p>Toggle the tags to filter</p>
               <ul class="inline pills">
                 <li ng-repeat="category in categories">
-                <a class="tag-{{category}}" href="" ng-class="{disabled_{{category}}: !catFilter.{{category}}}"
-                   ng-click="catFilter.{{category}} = !catFilter.{{category}}">
+                <a class="tag-{{category}}" href="" ng-class="{disabled_{{category}}: !catSelect.{{category}}}"
+                   ng-click="toggleCatSelect('{{category}}')">
                     {{category}}s
                   </a>
                 </li>
