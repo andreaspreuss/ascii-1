@@ -145,11 +145,16 @@ a {
 .news-filter .input-prepend {
     padding: 5px 5px 0px 5px;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .news-filter .input-prepend input {
     width: 85%;
+}
+
+.news-filter p {
+    margin-bottom: 0px;
+    color: #bbb;
 }
 
 ul.pills li {
